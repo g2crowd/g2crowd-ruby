@@ -1,6 +1,6 @@
 module G2crowd
   class Answer < Base
-    belongs_to :question
-    belongs_to :survey_response
+    has_one :question
+    has_one :survey_response
   end
 end

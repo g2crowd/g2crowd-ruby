@@ -1,6 +1,6 @@
 module G2crowd
   class SurveyResponse < Base
-    belongs_to :product
+    has_one :product
     has_many :questions
     has_many :answers
     def self.table_name

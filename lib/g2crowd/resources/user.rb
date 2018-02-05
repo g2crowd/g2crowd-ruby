@@ -1,5 +1,5 @@
 module G2crowd
   class User < Base
-    belongs_to :product
+    has_one :product
   end
 end
