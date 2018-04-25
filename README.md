@@ -38,11 +38,21 @@ def paginate_response(response)
   paginate_response(response.pages.next) if response.pages.links['next']
 end
 
+### with Global Authentication
+
 require 'g2crowd'
-G2crowd::Base.api_token = 'test'
+G2crowd::Base.api_token = API_TOKEN
 
 response = G2crowd::User.all
 paginate_response(response.all)
+
+### Authentication per request
+require 'g2crowd'
+
+G2crowd::User.with_headers(api_token: API_TOKEN) do
+  response = G2crowd::User.all;
+  paginate_response(response.all)
+end
 
 ```
 
