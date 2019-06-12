@@ -1,4 +1,4 @@
-# G2crowd RubyGem
+# G2 RubyGem
 
 ## Installation
 
@@ -17,7 +17,7 @@ Or install it yourself as:
     $ gem install g2crowd
 
 ## API Documentation
-Available [here](https://data.g2crowd.com/api/docs)
+Available [here](https://data.g2.com/api/docs)
 
 
 ## Usage
@@ -59,7 +59,7 @@ end
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/advocately/g2crowd-rb. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
+Bug reports and pull requests are welcome on GitHub at https://github.com/g2crowd/g2crowd-rb. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
 
 
 ## License
